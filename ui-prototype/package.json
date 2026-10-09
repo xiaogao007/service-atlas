@@ -1,0 +1,9 @@
+{
+  "name": "service-atlas-ui-prototype",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check dist/app.js && node --check dist/data.js",
+    "test": "node --test tests/data.test.js"
+  }
+}

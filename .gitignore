@@ -1,0 +1,27 @@
+# Local deployment and repository metadata
+**/.openai/
+ui-prototype/.git/
+
+# Dependencies, caches and packaged output
+**/node_modules/
+**/__pycache__/
+*.pyc
+*.tar.gz
+*.zip
+ui-prototype/premium-audit.json
+
+# Local configuration, credentials and runtime data
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+*.log
+.DS_Store
+Thumbs.db

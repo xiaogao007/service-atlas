@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7f7f7">
+  <meta name="description" content="服务地图交互原型：产品台账、跨服务器查询、归属整理、日志和受控重启。">
+  <title>产品 — 服务地图</title>
+  <link rel="stylesheet" href="./theme.css">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#content">跳到主要内容</a>
+  <div class="app-shell">
+    <aside id="navigation" class="rail" aria-label="全局导航"></aside>
+    <div class="workspace">
+      <header id="toolbar" class="toolbar"></header>
+      <main id="content" tabindex="-1"></main>
+    </div>
+    <aside id="context" class="context" aria-label="服务信息"></aside>
+  </div>
+  <dialog id="modal" aria-labelledby="modal-title"></dialog>
+  <dialog id="discard" class="small-dialog" aria-labelledby="discard-title">
+    <div class="dialog-head"><h2 id="discard-title">放弃未保存的内容？</h2></div>
+    <p class="dialog-description">已填写的内容将丢失。</p>
+    <div class="dialog-actions"><button type="button" class="button" id="keep-editing">继续编辑</button><button type="button" class="button danger" id="discard-editing">放弃修改</button></div>
+  </dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
