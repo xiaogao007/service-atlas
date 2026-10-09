@@ -1,0 +1,27 @@
+/* Shared light-workspace tokens. Keep DESIGN.md in sync with system changes. */
+:root {
+  color-scheme: light;
+  --canvas: #fff; --surface: #f7f7f7; --surface-hover: #f1f1f1;
+  --surface-selected: #eaeaec; --surface-subtle: #fafafa;
+  --ink: #262626; --secondary: #595959; --muted: #737373;
+  --line: #ebebed; --line-strong: #dedee2; --line-hover: #c6c6cb;
+  --primary: #262626; --primary-hover: #404040;
+  --success: #26764c; --success-bg: #eff7f1; --warning: #94651d; --warning-bg: #fcf5e8;
+  --danger: #ad403a; --danger-bg: #fdf0ef; --focus: #386fc0;
+  --focus-shadow: 0 0 0 2px #386fc012;
+  --blue-bg: #ecf3fb; --blue: #5b80ae; --lavender-bg: #f1edfa; --lavender: #8c77b3;
+  --peach-bg: #fff0e8; --peach: #bb8666; --sage-bg: #edf4ef; --sage: #7a9582;
+  --notice-bg: #f8f7f4; --notice-line: #eeece6;
+  --radius-control: 10px; --radius-tab: 12px; --radius-card: 16px; --radius-panel: 24px;
+  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px; --space-5: 20px; --space-6: 24px; --space-8: 32px;
+  --rail-width: 72px; --context-width: 400px; --page-padding: 24px;
+  --control-height: 40px; --compact-height: 32px;
+  --text-body: 14px; --text-caption: 12px; --text-title: 24px; --text-section: 18px;
+  --scroll-thumb: #d6d6db; --scroll-hover: #b8b8c2; --scroll-active: #9393a1;
+  --shadow-overlay: 0 16px 64px rgba(31, 37, 50, .13);
+  --shadow-drawer: -10px 0 45px #0000000d; --shadow-tip: 0 4px 35px #7f56d905;
+  --context-glow: radial-gradient(ellipse 380px 170px at 60% -30px,#e8f3fc88,transparent);
+  --motion: 160ms;
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --mono: "Cascadia Code", "SFMono-Regular", Consolas, monospace;
+}

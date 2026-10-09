@@ -9,3 +9,5 @@
 当前落地覆盖产品台账、产品详情、待整理、服务器、操作历史、设置，以及服务详情、日志、表单和受控重启弹窗。可运行入口为 `ui-prototype/dist/index.html`；当前数据与远程动作均为模拟。真实服务能力、持久化与安全验收仍按产品文档实施。
 
 修改视觉时同步主题、完整规范与浏览器验证；修改业务流程时同步 [体验规格](02-experience-and-flows.md)和[验收标准](05-delivery-and-acceptance.md)。技术栈默认决策保持 Go、React、TypeScript、Vite、Ant Design、SQLite，现有无构建依赖原型用于视觉与交互评审。
+
+跨产品复用入口为 [浅色工作台风格包](ui-style/README.md)，提供业务无关的规范、提示词、参考图和主题导出快照。当前原型继续只加载 `ui-prototype/dist/theme.css`；导出快照随基线更新，不构成第二套运行时主题。
